@@ -38,13 +38,13 @@ Download [`CUB.rar`](https://drive.google.com/drive/my-drive) and extract it.
 
 The basic configurations are defined in configs/.
 
-1.To train PNKNN on 5-way 5-shot miniImageNet benchmark
+1.To train PNN on 5-way 5-shot miniImageNet benchmark
 
 ```python
 python main.py --cfg './configs/PN_KNN/miniImageNet_res12_5way-5shot.yaml' --is_train 1 --tag main 
 ```
 
-2.To test PNKNN on 5-way 5-shot miniImageNet benchmark
+2.To test PNN on 5-way 5-shot miniImageNet benchmark
 
 ```python
 python main.py --cfg './configs/evaluation/mini_res12_PNKNN_5way-5shot.yaml' --is_train 0 --tag test 
