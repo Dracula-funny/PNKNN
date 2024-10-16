@@ -1,4 +1,4 @@
-# PNKNN
+# A Prototype-Neighbor Network for Few-Shot Classification .
 
 # Installation
 
